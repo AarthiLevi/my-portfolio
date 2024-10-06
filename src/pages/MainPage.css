@@ -1,0 +1,38 @@
+/* src/pages/MainPage.css */
+.main-page {
+    padding: 2rem;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .projects-section {
+    margin-top: 3rem;
+  }
+  
+  .projects-list {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background-color: #e2e2e2;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+
+  h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1{
+    letter-spacing: 3px;
+  }

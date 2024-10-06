@@ -1,0 +1,87 @@
+/* General Hero Section Styling */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  padding-top: 100px; /* Add top padding to create space */
+  background-color: #f4f4f9; /* Light background color */
+}
+
+/* Left Side: Image Styling */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+  margin-left:40px; /* Add margin to the right to separate from the text */
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 0%;
+  object-fit: cover;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Side: Text Styling */
+.hero-text {
+  flex: 1;
+  padding-left: 50px;
+  margin-top: 20px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 10px 0;
+  color: #433878; /* Bold red color */
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin: 15px 0;
+  color:  #640D5F;
+}
+
+/* Buttons Styling */
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero-buttons .btn-primary,
+.hero-buttons .btn-secondary {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.btn-primary {
+  background-color: #e63946; /* Red button */
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #333;
+  color: white;
+}
+
+/* Make it responsive */
+@media screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  
+
+  .hero-image {
+    margin-bottom: 20px;
+  }
+
+  .hero-text {
+    padding-left: 0;
+  }
+}
