@@ -14,6 +14,7 @@
 .contact-form label {
   margin-bottom: 0.5rem;
   font-weight: bold;
+  color:#640D5F;
 }
 
 .contact-form input,
@@ -24,6 +25,7 @@
   margin-bottom: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
+  color:#433878;
 }
 
 .contact-form button {
@@ -43,7 +45,7 @@
 .form-status {
   margin-top: 1rem;
   font-size: 1rem;
-  color: green;
+  color: #58467a;
 }
 
 .social-links {
@@ -65,7 +67,7 @@
 }
 
 p{
-  color:#6C48C5;
+  color:#433878;
 }
 
 .footer a {
@@ -75,4 +77,10 @@ p{
 
 .footer a:hover {
   color: #A594F9; /* Optional: Change color on hover (example: orange-red) */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #58467a; /* Change border color on focus */
+  outline: none; /* Optional: Remove the default blue outline */
 }

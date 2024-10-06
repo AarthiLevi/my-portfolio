@@ -14,11 +14,11 @@ const Hero = () => {
       {/* Right Side: Text */}
       <div className="hero-text">
         <h1>Aarthi</h1>
-        <p>Front-End Developer & Designer</p>
-        <p>
-          I create clean and modern web designs with responsive front-end
-          development, using the latest technologies like React, JavaScript, and CSS.
-        </p>
+        <p>Web Designer</p>
+<p>
+  I craft modern and user-friendly designs that elevate brands.
+</p>
+
 
         {/* Add buttons for interactions if needed */}
         {/* <div className="hero-buttons">
